@@ -1,1 +1,1 @@
-# colonization-squid
+# Machine-learning tools to predict gene functions
