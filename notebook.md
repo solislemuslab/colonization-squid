@@ -1,3 +1,25 @@
+# Meeting Feb 10 with Mark Mandel, Songyang Cheng and Hector Burgos
+- Mandel lab studies how animals are colonized by bacteria after being born and how the right bacteria gets to colonize (and not the wrong bacteria)
+- the focus on a type of squid as model organism. In particular, this squid has one organ that is colonized by only one bacteria
+- they study which genes in bacteria are necessary for colonization by performing experiments in which certain genes are knocked out (mutant bacteria) and then it is tested how well these mutant bacteria colonize the squid
+- they have two main measurements: input (counts of bacteria in the dish), squid (counts of bacteria inside the squid)
+- 6 replicates with 1500 squid each. Note that Squid01_1 and Squid01_2 correspond to 250 squid
+- they also measure bacterial growth (LBS). This is done to separate the effect of growth from the effect of colonization. That is, a mutant might not be able to colonize but only because it was not able to grow (the knocked out gene was important for growth, not for colonization)
+- In the data, we have ~3800 genes (rows). Some of these genes are already known to be important for colonization
+- Input 01-10: count per million of mutants of that type (note that interrption of the gene is done once, and then bacteria are divided in 10 different tubes)
+- If the input is 0, that means that an essential gene was knocked out
+- the knocking out process (also denoted interruption process) of a gene was done randomly, so some times you interrupt a place in between genes or at the very end of the gene (which does not affect function). For this reason, if you sum the whole column Input01, you do not get exactly 1,000,000 (which is the number of mutants)
+- Input=0 could also mean that that gene is very small so it was not really knocked out with these random interruptions
+- Category is a manually created label based on visualization of the data. For example, they found out that the known colonization factors do not go to zero in the squid, but they also reduce the number a certain k-fold
+- Mark and Hector will create a new csv file with information on known colonization factors
+
+## Ideas of analyses
+- Data visualization: are there strange things in the data?
+- Supervised methods with Category as label
+- Unsupservised clustering and then see if the clusters are related to the categories
+- Semi-supervised methods with "known colonization" as label. We are waiting for these measurements
+
+
 # Initial meeting with Mark Mandel (12/15)
 
 - He is studying colonization factors in bacteria (transposon)
