@@ -1,3 +1,14 @@
+# Initial tests
+
+## Baseline prediction
+- We are using Category as our label to predict
+- On the data visualization, we identified some features that do not contain any information on Category
+- We also identified some linear relationships between input and LBS, but no clear pattern between LBS and squid
+- Brian performed a baseline prediction based on 1) dummy classifier (most frequent) and 2) random forest with default settings
+- The data was divided on testing, and training using a stratified approach so that proportions of categories are preserved
+- Accuracy is already quite high (greater than 91% in all cases)
+
+
 # Meeting Feb 10 with Mark Mandel, Songyang Cheng and Hector Burgos
 - Mandel lab studies how animals are colonized by bacteria after being born and how the right bacteria gets to colonize (and not the wrong bacteria)
 - the focus on a type of squid as model organism. In particular, this squid has one organ that is colonized by only one bacteria
