@@ -1,3 +1,16 @@
+# New data from Mark
+
+Hi Claudia and Songyang,
+
+Hector has been working to code published data based on mutant fitness during competitive colonization. Below is a first version of that analysis. He has listed a number of V. fischeri genes/locus tags, and whether there is published data showing that the gene had a fitness “defect”, “advantage”, or “no effect” during competitive colonization in the squid. These are assays where a defined mutant was competed directly against a wild-type strain or a mutant displayed a defect in colonization on its own.
+
+He is continuing to work to add more info to this sheet. His full sheet has references and additional detail. He can share that, but we thought this cleaned-up version would be most useful right now.
+
+Let us know if another meeting for all us would be helpful, or Songyang is welcome to reach out directly to Hector.
+
+Take care,
+Mark
+
 # Initial tests
 
 ## Baseline prediction
