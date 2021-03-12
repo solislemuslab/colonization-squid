@@ -27,7 +27,7 @@ Mark
 - the focus on a type of squid as model organism. In particular, this squid has one organ that is colonized by only one bacteria
 - they study which genes in bacteria are necessary for colonization by performing experiments in which certain genes are knocked out (mutant bacteria) and then it is tested how well these mutant bacteria colonize the squid
 - they have two main measurements: input (counts of bacteria in the dish), squid (counts of bacteria inside the squid)
-- 6 replicates with 1500 squid each. Note that Squid01_1 and Squid01_2 correspond to 250 squid
+- 6 replicates with 1500 squid total (each replicate used 250 squid). Note that Squid01_1 and Squid01_2 correspond to 250 squid
 - they also measure bacterial growth (LBS). This is done to separate the effect of growth from the effect of colonization. That is, a mutant might not be able to colonize but only because it was not able to grow (the knocked out gene was important for growth, not for colonization)
 - In the data, we have ~3800 genes (rows). Some of these genes are already known to be important for colonization
 - Input 01-10: count per million of mutants of that type (note that interrption of the gene is done once, and then bacteria are divided in 10 different tubes)
