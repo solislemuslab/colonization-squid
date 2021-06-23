@@ -1,3 +1,15 @@
+# New project Research Forward
+
+## Initial meeting Mark (June 23)
+- We have X systems: VF-squid (the one we were studying), SA-mouse, VC-rabbit
+- We want to study which are the genes that are required for colonization
+- Different stages:
+    1. Which genes are required for colonization? This is something done in Mark's lab where they browse the literature to find all the genes per system that have been identified as required for colonization
+    2. How to match the genes across systems/genomes? We want to find orthologs to match genes in different genomes to each other. This could be done with standard orthologs or structural orthologs (folding server). We will create a table with CF_i (colonization factor) as rows and system as columns (VC, SA, VF,...). Then, the cell will identify is the gene is conserved and required, conserved but not required, or absent
+    3. We want to rank genes based on this table. A highly ranked gene is one that is conserved and required among most systems. The next layer of importance would be a gene that when is present, it is required, but it could be absent
+    4. After we get a ranked list of genes, we will check how novel they are: have they been studied?, is it not a known function?
+
+
 # New data from Mark
 
 Hi Claudia and Songyang,
